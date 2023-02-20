@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-family: Calibri, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.profession {
+  font-family: Calibri, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: royalblue;
+  margin: 0;
+}
+
+.left-column {
+  width: 66.666%;
+  float: left;
+  padding-right: 30px;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Calibri, sans-serif;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.horizontal-line {
+  border-top: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.right-column {
+  width: 33.333%;
+  float: right;
+  background-color: #486da1;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.permis-b {
+  text-align: center
+}
+
+@media (max-width: 768px) {
+  .right-column {
+    width: 100%;
+    float: none;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .right-column {
+    width: 25%;
+    float: right;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .right-column {
+    width: 25%;
+    float: right;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-column {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+  }
+  
+  .right-column {
+    width: 100%;
+    float: none;
+    background-color: #486da1;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .header {
+    align-items: center;
+  }
+  
+  .name, .profession {
+    font-size: 14pt;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+
+}
